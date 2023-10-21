@@ -50,7 +50,7 @@ This repository contains two utilities for converting CSV files to YAML format:
 
 1. Create a conda environment:
    ```bash
-   conda create --name csv_to_yaml_env python=3.8
+   conda create --name csv_to_yaml_env python=3.9
    ```
 
 2. Activate the conda environment:
@@ -83,13 +83,13 @@ python csv_to_yaml_cli.py path_to_input.csv path_to_output.yaml
 
 ## Requirements
 
-- Python 3.6 or newer
+- Python 3.8 or newer
 - PyYAML package
 
 ## Contributing
 
 1. Fork the repository on GitHub.
-2. Clone the forked repo and make your necessary changes.
+2. Clone the forked repo and make the necessary changes.
 3. Create a pull request with a detailed description of your changes.
 
 ## License
