@@ -35,7 +35,7 @@ This repository provides two utilities for bi-directional conversions between CS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/javedali99/csv-to-yaml-converter
+   git clone https://github.com/javedali99/csv-to-yaml-converter.git
    cd csv-yaml-converter
    ```
 
