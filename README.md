@@ -14,13 +14,13 @@ Effortlessly convert between CSV and YAML formats using either a Python script o
 
 - [Description](#description)
 - [Installation](#installation)
+- [Requirements](#requirements)
 - [Environment Setup](#environment-setup)
   - [Using pip and venv](#using-pip-and-venv)
   - [Using conda](#using-conda)
 - [Usage](#usage)
   - [Script-based Conversion](#script-based-conversion)
   - [CLI-based Conversion](#cli-based-conversion)
-- [Requirements](#requirements)
 - [Contributing](#contributing)
 - [License](#license)
 
