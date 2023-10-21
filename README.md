@@ -38,7 +38,12 @@ This repository provides two utilities for bi-directional conversions between CS
    git clone https://github.com/javedali99/bi-directional-csv-yaml-converter.git
    cd csv-yaml-converter
    ```
+## Requirements
 
+- Python 3.8 or newer
+- PyYAML package
+
+  
 ## Environment Setup
 
 ### Using pip and venv
@@ -93,10 +98,6 @@ For YAML to CSV:
 python bi_directional_csv_yaml_cli.py yaml-to-csv path_to_input.yaml path_to_output.csv
 ```
 
-## Requirements
-
-- Python 3.8 or newer
-- PyYAML package
 
 ## Contributing
 
