@@ -73,7 +73,7 @@ This repository provides two utilities for bi-directional conversions between CS
 
 3. Install the required packages:
    ```bash
-   conda install -c anaconda pyyaml
+   conda install -c conda-forge pyyaml
    ```
 
 ## Usage
