@@ -1,6 +1,14 @@
-# CSV to YAML Converter
 
-Convert CSV files to YAML format seamlessly using either a Python script or a command-line interface (CLI).
+<p align="center"><img alt="Logo" src="https://github.com/javedali99/csv-to-yaml-converter/assets/15319503/1b707dad-d76d-4b7c-939b-c4b1a03f9ae4" width=150px></a></p>
+
+<h1 align="center">Bi-directional CSV-YAML Converter</h1>
+
+<p align="center">
+Effortlessly convert between CSV and YAML formats using either a Python script or a command-line interface (CLI).
+
+</p>
+
+<br>
 
 ## Table of Contents
 
@@ -18,17 +26,17 @@ Convert CSV files to YAML format seamlessly using either a Python script or a co
 
 ## Description
 
-This repository contains two utilities for converting CSV files to YAML format:
+This repository provides two utilities for bi-directional conversions between CSV and YAML formats:
 
-1. **Script-based Conversion**: A Python script that, when executed, converts a specified CSV file to a corresponding YAML file.
-2. **CLI-based Conversion**: A command-line tool that allows users to specify the input CSV file and the output YAML file through command-line arguments.
+1. **Script-based Conversion**: An interactive Python script that prompts the user to choose a conversion direction and then to provide the appropriate input and output file paths.
+2. **CLI-based Conversion**: A command-line utility that allows users to specify the conversion direction and file paths as arguments, offering a streamlined conversion process suitable for automation and batch processing.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/javedali99/csv-to-yaml-converter.git
-   cd csv-to-yaml-converter
+   git clone https://github.com/javedali99/csv-yaml-converter.git
+   cd csv-yaml-converter
    ```
 
 ## Environment Setup
@@ -50,12 +58,12 @@ This repository contains two utilities for converting CSV files to YAML format:
 
 1. Create a conda environment:
    ```bash
-   conda create --name csv_to_yaml_env python=3.9
+   conda create --name csv_yaml_converter_env python=3.9
    ```
 
 2. Activate the conda environment:
    ```bash
-   conda activate csv_to_yaml_env
+   conda activate csv_yaml_converter_env
    ```
 
 3. Install the required packages:
@@ -67,18 +75,22 @@ This repository contains two utilities for converting CSV files to YAML format:
 
 ### Script-based Conversion
 
-1. Edit the `csv_to_yaml_script.py` file and provide the path to your input CSV and desired output YAML file.
-2. Run the script:
+1. Run the script:
    ```bash
-   python csv_to_yaml_script.py
+   python bi_directional_csv_yaml_script.py
    ```
+2. Follow the on-screen prompts to choose the conversion mode and provide file paths.
 
 ### CLI-based Conversion
 
-Execute the CLI script with the paths to the input CSV and output YAML files as arguments:
-
+For CSV to YAML:
 ```bash
-python csv_to_yaml_cli.py path_to_input.csv path_to_output.yaml
+python bi_directional_csv_yaml_cli.py csv-to-yaml path_to_input.csv path_to_output.yaml
+```
+
+For YAML to CSV:
+```bash
+python bi_directional_csv_yaml_cli.py yaml-to-csv path_to_input.yaml path_to_output.csv
 ```
 
 ## Requirements
@@ -89,8 +101,9 @@ python csv_to_yaml_cli.py path_to_input.csv path_to_output.yaml
 ## Contributing
 
 1. Fork the repository on GitHub.
-2. Clone the forked repo and make the necessary changes.
-3. Create a pull request with a detailed description of your changes.
+2. Clone the forked repository and make the necessary changes.
+3. Push your changes to your GitHub repository.
+4. Submit a pull request, providing a detailed description of your changes.
 
 ## License
 
