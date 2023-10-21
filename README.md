@@ -6,6 +6,9 @@ Convert CSV files to YAML format seamlessly using either a Python script or a co
 
 - [Description](#description)
 - [Installation](#installation)
+- [Environment Setup](#environment-setup)
+  - [Using pip and venv](#using-pip-and-venv)
+  - [Using conda](#using-conda)
 - [Usage](#usage)
   - [Script-based Conversion](#script-based-conversion)
   - [CLI-based Conversion](#cli-based-conversion)
@@ -24,19 +27,40 @@ This repository contains two utilities for converting CSV files to YAML format:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/csv-to-yaml-converter.git
+   git clone https://github.com/javedali99/csv-to-yaml-converter.git
    cd csv-to-yaml-converter
    ```
 
-2. (Optional) Create a virtual environment:
+## Environment Setup
+
+### Using pip and venv
+
+1. Create a virtual environment:
    ```bash
    python -m venv env
    source env/bin/activate  # On Windows, use `env\Scripts\activate`
    ```
 
+2. Install the required packages:
+   ```bash
+   pip install PyYAML
+   ```
+
+### Using conda
+
+1. Create a conda environment:
+   ```bash
+   conda create --name csv_to_yaml_env python=3.8
+   ```
+
+2. Activate the conda environment:
+   ```bash
+   conda activate csv_to_yaml_env
+   ```
+
 3. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   conda install -c anaconda pyyaml
    ```
 
 ## Usage
@@ -59,8 +83,8 @@ python csv_to_yaml_cli.py path_to_input.csv path_to_output.yaml
 
 ## Requirements
 
-- Python 3.x
-- `PyYAML` library (already listed in `requirements.txt`)
+- Python 3.6 or newer
+- PyYAML package
 
 ## Contributing
 
@@ -71,3 +95,4 @@ python csv_to_yaml_cli.py path_to_input.csv path_to_output.yaml
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
